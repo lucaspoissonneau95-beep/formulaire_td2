@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenue sur ma page</title>
+    </head>
+    <body>
+
+        <!-- Titre tout en haut -->
+        <h1 style="text-align:center;">Bienvenue sur ma page</h1>
+
+        <!-- Image centrée -->
+        <center>
+            <img src="photo.jpg" alt="Doctor Guitars" width="200">
+            <p>Description : Je m'appelle Lucas POISSONNEAU élève en 1ère année de BTS SIO SISR</p>
+        </center>
+
+        <br>
+
+        <!-- Premier tableau : Contact -->
+        <center>
+            <table border="1">
+                <tr>
+                    <td colspan="2" style="text-align: center;"><strong>Contactez-moi :</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Tel :</strong></td>
+                    <td>07.67.48.71.90</td>
+                </tr>
+                <tr>
+                    <td><strong>Email :</strong></td>
+                    <td>lucas.poissonneau95@gmail.com</td>
+                </tr>
+            </table>
+        </center>
+
+        <!-- Texte formulaire -->
+        <center>
+            <p>Vous pouvez aussi me contacter en complétant ce formulaire :</p>
+        </center>
+
+        <!-- Second tableau : Formulaire centré -->
+        <center>
+            <table border="1">
+                <tr>
+                    <td>
+                        <form action="mail.php" method="post" style="padding: 10px;">
+                            <p>
+                                <label for="email">Votre email :</label><br>
+                                <input type="email" id="email" name="email">
+                            </p>
+                            <p>
+                                <label for="objet">Objet de l'email :</label><br>
+                                <input type="text" id="objet" name="objet">
+                            </p>
+                            <p>
+                                <label for="message">Votre message :</label><br>
+                                <textarea id="message" name="message" rows="5" cols="30"></textarea>
+                            </p>
+                            <p>
+                                <input type="submit" value="Envoyer">
+                            </p>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </center>
+
+    </body>
+    <center>
+    <p>
+        <a href="CV Lucas POISSONNEAU.pdf" download>Télécharger mon CV en PDF</a>
+    </p>
+</center>
+
+
+
+
+</html>
